@@ -13,7 +13,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #2b2a2a;
-    padding: 50px;
+    padding: 55px;
     border-radius: 12px;
 }
 
@@ -76,6 +76,13 @@ body {
     outline: none;
 }
 
+.textoTarefa {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 290px;
+    white-space: nowrap;
+}
+
 .btnAcao:hover {
     background: #3c3a3a;
 }
@@ -116,8 +123,8 @@ body {
 
 #janelaEdicaoBtnFechar {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: -25px;
+    right: -18px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -125,6 +132,7 @@ body {
     background: #2d2c2c;
     color: #fff;
     outline: none;
+    cursor: pointer;
 }
 
 form {
