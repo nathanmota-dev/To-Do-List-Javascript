@@ -1,2 +1,7 @@
 # To-Do-List-Javascript
-To do List with HTML + CSS + JAVASCRIPT
+
+### Descrição
+
+Lista de Tarefas feita com HTML, CSS e JAVASCRIPT
+
+![Imagem 1](/assets/img/img1.JPG)

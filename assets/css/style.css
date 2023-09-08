@@ -1,6 +1,6 @@
 body {
-    background-color: #000;
-    color: #fff;
+    background: #000;
+    color: #FFF;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -9,10 +9,11 @@ body {
 .conteudo {
     margin: 0 auto;
     width: 100%;
+    ;
     max-width: 450px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #2b2a2a;
+    background: #2b2a2a;
     padding: 55px;
     border-radius: 12px;
 }
@@ -31,7 +32,7 @@ body {
     outline: none;
     font-size: 1.2rem;
     background: #191818;
-    color: #fff;
+    color: #FFF;
 }
 
 .topo button {
@@ -39,7 +40,7 @@ body {
     border-radius: 12px;
     border: 1px solid #191818;
     background: #191818;
-    color: #fff;
+    color: #FFF;
     outline: none;
 }
 
@@ -72,8 +73,12 @@ body {
     margin-right: 8px;
     cursor: pointer;
     background: #2b2a2a;
-    color: #fff;
+    color: #FFF;
     outline: none;
+}
+
+.btnAcao:hover {
+    background: #3c3a3a;
 }
 
 .textoTarefa {
@@ -81,10 +86,6 @@ body {
     text-overflow: ellipsis;
     width: 290px;
     white-space: nowrap;
-}
-
-.btnAcao:hover {
-    background: #3c3a3a;
 }
 
 #janelaEdicao {
@@ -101,7 +102,7 @@ body {
     display: none;
 }
 
-#janelaEdicao .abrir {
+#janelaEdicao.abrir {
     display: block !important;
 }
 
@@ -117,7 +118,7 @@ body {
     display: none;
 }
 
-#janelaEdicaoFundo .abrir {
+#janelaEdicaoFundo.abrir {
     display: block !important;
 }
 
@@ -130,9 +131,8 @@ body {
     border-radius: 50%;
     border: 1px solid #2d2c2c;
     background: #2d2c2c;
-    color: #fff;
+    color: #FFF;
     outline: none;
-    cursor: pointer;
 }
 
 form {
@@ -143,7 +143,7 @@ form {
 .frm-linha {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 .frm-linha label {
@@ -157,16 +157,16 @@ form {
     border: 1px solid #191818;
     font-size: 1.2rem;
     background: #2d2c2c;
-    color: #fff;
+    color: #FFF;
 }
 
 .frm-linha button {
     background: #2d2c2c;
-    border: 1px solid #2d2c2c;
+    border: 1px solid #191818;
     padding: 7px;
     margin-bottom: 10px;
     border-radius: 12px;
-    color: #ccc;
+    color: #CCC;
     cursor: pointer;
     height: 50px;
     font-size: 1.3rem;
